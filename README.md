@@ -1,6 +1,6 @@
 # Company Website CMS
 
-A content management system built with **Laravel 10** for running a company website. It has an admin dashboard for managing the site's pages and content, and a public front end.
+A full-stack content management system built with **Laravel 10** for running a company website. It has an admin dashboard for managing the site's pages and content, and a public front end.
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
