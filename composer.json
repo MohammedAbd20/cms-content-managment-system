@@ -1,7 +1,7 @@
 {
     "name": "laravel/laravel",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "Company website CMS with blog, services, gallery, pricing, FAQ and team management (Laravel 10).",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
