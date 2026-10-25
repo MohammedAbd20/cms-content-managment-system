@@ -9,17 +9,27 @@ A full-stack content management system built with **Laravel 10** for running a c
 
 ## Screenshots
 
+Website (click an image for the full page):
+
 | Home | Blog |
 |---|---|
-| ![Home](public/demo/screencapture-127-0-0-1-8000-website-2024-11-22-02_57_12.png) | ![Blog](public/demo/127.0.0.1_8000_website_blog.png) |
+| [![Home](public/demo/thumbs/home.png)](public/demo/screencapture-127-0-0-1-8000-website-2024-11-22-02_57_12.png) | [![Blog](public/demo/thumbs/blog.png)](public/demo/127.0.0.1_8000_website_blog.png) |
 
 | Services | Gallery |
 |---|---|
-| ![Services](public/demo/127.0.0.1_8000_website_service.png) | ![Gallery](public/demo/127.0.0.1_8000_website_gallery.png) |
+| [![Services](public/demo/thumbs/service.png)](public/demo/127.0.0.1_8000_website_service.png) | [![Gallery](public/demo/thumbs/gallery.png)](public/demo/127.0.0.1_8000_website_gallery.png) |
 
-| Contact |
-|---|
-| ![Contact](public/demo/127.0.0.1_8000_website_contact-us.png) |
+[![Contact](public/demo/thumbs/contact.png)](public/demo/127.0.0.1_8000_website_contact-us.png)
+
+Admin dashboard:
+
+| Blog posts | Services |
+|---|---|
+| ![Admin blog](public/demo/admin/127.0.0.1_8000_admin_blog.png) | ![Admin services](public/demo/admin/127.0.0.1_8000_admin_service.png) |
+
+| Pricing plans | Team members |
+|---|---|
+| ![Admin pricing](public/demo/admin/127.0.0.1_8000_admin_price-plan.png) | ![Admin team](public/demo/admin/127.0.0.1_8000_admin_team-member.png) |
 
 ## Features
 
