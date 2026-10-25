@@ -1,73 +1,72 @@
+# Company Website CMS
 
-# Content Management System
+A content management system built with **Laravel 10** for running a company website. It has an admin dashboard for managing the site's pages and content, and a public front end.
 
-Welcome to our CMS (Content Management System)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
-## Getting Started
+## Screenshots
 
-To get started with the CMS, follow these steps:
+| Home | Blog |
+|---|---|
+| ![Home](public/demo/screencapture-127-0-0-1-8000-website-2024-11-22-02_57_12.png) | ![Blog](public/demo/127.0.0.1_8000_website_blog.png) |
 
-git clone url
+| Services | Gallery |
+|---|---|
+| ![Services](public/demo/127.0.0.1_8000_website_service.png) | ![Gallery](public/demo/127.0.0.1_8000_website_gallery.png) |
 
-# Install composer dependency
+| Contact |
+|---|
+| ![Contact](public/demo/127.0.0.1_8000_website_contact-us.png) |
+
+## Features
+
+- Admin dashboard
+- Category and blog management
+- Service management
+- Gallery management
+- Testimonials
+- Pricing plans
+- FAQ management
+- Team management
+- Site settings, including changing the website's colors
+
+## Libraries used
+
+Font Awesome, Bootstrap Icons, ColorPicker, Dropify (image upload), Select2, SweetAlert2, Toastr, DataTables
+
+## Getting started
+
+### Requirements
+
+- PHP and Composer
+- Node.js and npm (or Yarn)
+- MySQL
+
+### Installation
+
+```bash
+git clone https://github.com/MohammedAbd20/cms-content-managment-system.git
+cd cms-content-managment-system
 
 composer install
-
-# Install node modules
-
-npm install / yarn
-
-# Copy environment file
+npm install
 
 cp .env.example .env
-
-# Set the Application key
-
 php artisan key:generate
+```
 
-# setup the database credentials and migrate database
+Set your database credentials in `.env`, then run the migrations with demo data:
 
-php artisan migrate
-
-# Damy data Insert with Seeder && Factory
-
+```bash
 php artisan migrate:fresh --seed
+php artisan serve
+```
 
-### [ Feature List ]
+Open `http://127.0.0.1:8000`.
 
--   Content Management System
--   User Friendly Admin Dashboard
--   Category Management
--   Blog Management
--   Service Management
--   Gallery Management
--   Testimonial Management
--   Pricing Plans
--   FAQ Management
--   Team Management
--   Site Settings
--   Changes Color on Website
+## Author
 
-# [ Plugins ]
-
--   Fontawsome icon
--   Bootstarp Icon
--   ColorPiker
--   Dropify Image Upload
--   Selete2
--   Sweet Alert 2
--   Toastr Notification
--   Data Table
-
-# Frontend
-
- <img src="public/demo/screencapture-127-0-0-1-8000-website-2024-11-22-02_57_12.png">
-# Blog Page
- <img src="public/demo/127.0.0.1_8000_website_blog.png">
-# Service Page
- <img src="public/demo/127.0.0.1_8000_website_service.png">
-# Gallery Page
- <img src="public/demo/127.0.0.1_8000_website_gallery.png">
- # Contact Page
- <img src="public/demo/127.0.0.1_8000_website_contact-us.png">
-#
+**Mohammed Abd Elrahman**: [GitHub](https://github.com/MohammedAbd20) · [LinkedIn](https://www.linkedin.com/in/mohammed-abd-elrahman-9618a732b/)
